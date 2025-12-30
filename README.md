@@ -1,8 +1,8 @@
-##System Security Monitor Application##
+## System Security Monitor Application
 
 This tool provides an easy and secure method for encrypting, decrypting, and scanning files on Windows-based systems. It uses AES-256-GCM encryption, PBKDF2 for key derivation, and a ZIP scanner to analyze compressed archives. The tool is lightweight, portable, and does not require installation, making it ideal for users who need reliable file encryption and scanning.
 
-#Features
+# Features
 
 Encrypt and Decrypt Files: Uses AES-256-GCM for strong encryption with PBKDF2 key derivation.
 
@@ -16,7 +16,7 @@ Offline Use: Completely offline; does not rely on external services.
 
 Minimal System Requirements: Works on Windows 10 and above with as little as 4GB of RAM.
 
-#Installation
+# Installation
 
 Download the .exe file from the release section.
 
@@ -34,8 +34,8 @@ At least 4GB of RAM.
 
 No additional software or installation needed.
 
-#Usage
-#Encrypting Files
+# Usage
+# Encrypting Files
 
 Select a file or folder to encrypt.
 
@@ -59,7 +59,7 @@ Select a ZIP archive to scan.
 
 The tool will identify suspicious file types or hidden scripts and generate a log report.
 
-#Logs
+# Logs
 
 Logs will be saved in the same directory as the application. These contain timestamps, actions performed, and any issues detected during operations.
 
@@ -77,7 +77,7 @@ Logging System: Automatically generates log files with detailed information.
 
 Java was chosen for its portability, security libraries, and the availability of standard tools for encryption and file processing. The system is designed to be modular, allowing for easy future updates and extensions.
 
-#Security Considerations
+# Security Considerations
 
 The tool avoids writing temporary unencrypted data on the system and ensures sensitive buffers are cleared.
 
